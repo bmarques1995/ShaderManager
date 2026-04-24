@@ -1,0 +1,25 @@
+From 34af6dca05e4d762b19fde4895bdfd29f24a933e Mon Sep 17 00:00:00 2001
+From: Bruno Marques <brunosmarques1995@hotmail.com>
+Date: Thu, 23 Apr 2026 15:33:03 -0300
+Subject: [PATCH] patch
+
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 7bf48e6a..9bcccf1b 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -670,7 +670,7 @@ if(FLATBUFFERS_INSTALL)
+     install(
+       TARGETS flatbuffers_shared EXPORT FlatBuffersSharedTargets
+       ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
+-      RUNTIME DESTINATION ${CMAKE_INSTALL_LIBDIR}
++      RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+       LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+       INCLUDES DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
+     )
+-- 
+2.53.0.windows.3
+

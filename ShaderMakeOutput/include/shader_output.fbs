@@ -1,0 +1,19 @@
+namespace ShaderManager;
+
+enum ShaderStage : uint16 {
+  None = 0,
+  Vertex = 1,
+  Pixel = 2,
+  Geometry = 4,
+  Domain = 8,
+  Hull = 16,
+  Compute = 32,
+  Mesh = 64,
+  Amplification = 128,
+  RayTracing = 256
+}
+
+table ShaderOutput {
+  stage: ShaderStage;
+  bytes: [uint8];
+}

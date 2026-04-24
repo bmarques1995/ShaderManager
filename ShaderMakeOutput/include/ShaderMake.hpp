@@ -6,9 +6,9 @@
 #include "DLLMacro.hpp"
 // TODO: Referencie os cabeçalhos adicionais de que seu programa precisa aqui.
 
-namespace ShaderManager
+namespace ShaderMake
 {
-	class SHADER_MANAGER_API ShaderCompiler
+	class SHADER_MAKE_OUTPUT_API ShaderCompiler
 	{
 	public:
 		static void EntryPoint();

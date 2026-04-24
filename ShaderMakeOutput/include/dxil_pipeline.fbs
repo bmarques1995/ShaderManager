@@ -1,0 +1,10 @@
+// schema.fbs
+include "shader_output.fbs";
+namespace ShaderManager;
+
+table DXILPipeline {
+  name: string;
+  shaders: [ShaderOutput];
+}
+
+

@@ -1,0 +1,9 @@
+// schema.fbs
+include "dxil_pipeline.fbs";
+namespace ShaderManager;
+
+table DXILRoot {
+  pipelines: [DXILPipeline];
+}
+
+root_type DXILRoot;
